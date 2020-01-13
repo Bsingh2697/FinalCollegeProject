@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style type="text/css">
+<!--
+.style1 {color: #0099CC}
+-->
+</style>
+<style type="text/css">
+style2 {color:#999999 ; }
+.style2 {font-family: Georgia, "Times New Roman", Times, serif}
+.style4 {font-family: "Times New Roman", Times, serif}
+.style8 {font-family: "Comic Sans MS", Constantia}
+.style14 {font-family: "Comic Sans MS", Constantia; color:#01274C; }
+.style19 {color: #FFFFFF}
+.style20 {color: #ffa700}
+.style21 {color: #33FF66}
+.style22 {color: #CC33CC}
+.style23 {
+	font-size: xx-large;
+	color: #0066CC;
+}
+.style25 {font-size: x-large}
+.style26 {font-size: large}
+.style27 {
+	font-size: xx-large;
+	color: #FF0000;
+}
+.style28 {color: #FF0000}
+.style29 {font-size: x-large; color: #FF0000; }
+.style30 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: xx-large;
+	color: #ffa700;
+	font-weight: bold;
+}
+.style31 {
+	font-size: xx-large;
+	font-family: "Courier New", Courier, monospace;
+	color: #ffa700;
+}
+.style32 {font-family: "Comic Sans MS", Constantia; font-size: x-large; }
+.style33 {
+	font-size: xx-large;
+	color: #ffa700;
+}
+.style34 {font-size: xx-large; font-family: "Courier New", Courier, monospace; color: #0099FF; }
+.style38 {font-size: medium}
+.style39 {color: #000000}
+.style40 {font-family: "Courier New", Courier, monospace; color: #ffa700; font-weight: bold; }
+.style42 {
+	font-family: "Comic Sans MS", Constantia;
+	font-size: small;
+	color: #000000;
+}
+.style47 {font-size: small}
+.style48 {font-family: "Comic Sans MS", Constantia; color: #FF6600; }
+.style49 {font-size: larger}
+.style50 {color: #FF6633}
+</style>
+</head>
+<script type="text/javascript">
+function validate()
+{
+if(document.getElementById('name').value=="")
+alert("Please enter username")
+
+    if( document.getElementById("pwd").value == "26bharat" ) 
+    {
+        alert( "Successfully logged in as User" );
+  location.href = "Front page.html";
+    
+    }
+    else
+    {
+        alert( "Enter correct password" );
+        
+    }
+}
+</script>
+<body>
+<h1 align="center"><a href="Front Page.html" class="style20 style2" style="text-decoration:none;">e-MEDS</a></h1>
+<div class=container>
+<p align="right"> 
+<div class=row>
+<div class=col-sm-8>
+  <p align="right">
+  <input name="text" type="text" class="style2 rounded" size="70" maxlength="100" align="right" placeholder="Please Provide Medicine/Product name to search!">
+   </p>
+   </div>
+   <div class=col-sm-1>
+   <input name="submit" class="btn btn-primary" type="submit" value="Search" style="padding-top:2px;padding-bottom:2px"  />
+   </div>
+   <div class=col-sm-1> 
+<a href="Cart.html" class="btn btn-primary" style="font-size:15px ;padding-top:2px;padding-bottom:2px" >MyCart</a>
+   </div>
+   <div class=col-sm-1>
+<a href="Login.html" class="btn btn-primary" style="font-size:15px ;padding-top:2px;padding-bottom:2px" >&nbspLog&nbspIn</a>
+   </div>
+   <div class=col-sm-1>
+<a href="register.html" class="btn btn-primary" style="font-size:15px ;padding-top:2px;padding-bottom:2px">Register</a>
+   </div>
+</div>
+
+</div>
+<div class="container">
+<div class="row">
+      <div align="center" class="style14 col-sm-2 rounded btn-default btn" style="bordercolor:white; background-color:#ffa700">
+      <a href="Medicines.html">Medicines</a>
+      </div>
+    
+	  <div align="center" class="style14 col-sm-2 rounded btn-default btn" style="bordercolor:white; background-color:#ffa700">
+      <a href="Healthcare.html" >Healthcare Products </a>
+      </div>
+    
+      <div align="center" class="style14 col-sm-2 rounded btn-default btn" style="bordercolor:white; background-color:#ffa700">
+      <a href="FAQ.html" >FAQ</a>
+      </div>
+    
+      <div align="center" class="style14 col-sm-2 rounded btn-default btn" style="bordercolor:white; background-color:#ffa700">
+      <a href="About us.html">About us </a>
+      </div>
+    
+      <div align="center" class="style14 col-sm-2 rounded btn-default btn" style="bordercolor:white; background-color:#ffa700">
+      <a href="Feedback.html">Feedback</a>
+      </div>
+    
+     <div align="center" class="style38 col-sm-2"><a href="Offers&amp;Deals.html" class="style8" style="color: #FF6600">OFFERS <span>&amp </span>DEALS </a></div>
+	
+</div></div>
+<div class="card card-body bg-light" style="margin:30px">
+<h1 align="center" class="style31" color="#FFFFFF" >User Login </h1>
+<form id="form1" name="form1" method="post" action="">
+  <div align="center"><span class="style39" >Your Username/E-mail ID</span> <span class="style40">*</span>
+    <input type="text" id="name" class="rounded" name="textfield" />
+  </div>
+  <label></label>
+  <p align="center"><span class="style39">Enter Your Password</span> <span class="style40">* </span>
+    <label>
+    <input type="password" id="pwd" class="rounded" name="textfield2" />
+    </label>
+  </p>
+  <p>
+    <label></label>
+  <label>
+    <div align="center">
+      <div align="center">
+        <label>
+    
+        <input type="submit" name="Submit" value="Log-in" class="btn btn-primary" onclick='validate()'/>
+        </label>
+  </div></div>
+  </form>
+  </div>
